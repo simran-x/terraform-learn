@@ -1,0 +1,9 @@
+# local terraform directory
+.terraform/*
+
+# terraform state files
+*.tfstate
+*.tfstate.*
+
+# terraform variable files - pass/pvt-keys/certs/secrets - diff for diff team mem
+*.tfvars
